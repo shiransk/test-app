@@ -5,7 +5,7 @@
   <section>
 
     <div class="swiper-container">
-      <div class="parallax-bg" style="background-image:url(images/slider.jpg)" data-swiper-parallax="-15%"></div>
+      <div class="parallax-bg" style="background-image:url(/assets/garage-main.jpg)" data-swiper-parallax="-15%"></div>
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="swiper-caption">
@@ -52,7 +52,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-6 section-content animatedParent animateOnce">
-          <img src="images/chef.jpg" class="img-responsive  animated fadeIn" alt="">
+          <%= image_tag 'tach.jpg', class: "img-responsive  animated fadeIn" %>  
         </div>
         <div class="col-sm-12 col-md-6 section-content">
           <h3>Mauris quis eros tortor</h3>
@@ -67,7 +67,7 @@
 
   <section class="menu">
     <div class="container-fluid">
-      <div class="row cover" style="background-image:url(images/home.jpg)"></div>
+      <div class="row cover" style="background-image:url(assets/garage2.jpg)"></div>
     </div>
     <div class="container">
       <div class="row">
@@ -146,7 +146,7 @@
       <h3>Recent works</h3>
       <div class="portfolio grid-4">
         <figure class="animateOnScroll" data-animation="fadeIn">
-          <img src="images/portfolio/1.jpg" alt="" />
+          <img src="assets/3.jpg" alt="" />
           <figcaption>
             <h2>Portfolio Item</h2>
             <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p>
@@ -154,7 +154,7 @@
           </figcaption>
         </figure>
         <figure class="animateOnScroll" data-animation="fadeIn">
-          <img src="images/portfolio/2.jpg" alt="" />
+          <img src="assets/2.jpg" alt="" />
           <figcaption>
             <h2>Portfolio Item</h2>
             <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p>
@@ -162,7 +162,7 @@
           </figcaption>
         </figure>
         <figure class="animateOnScroll" data-animation="fadeIn">
-          <img src="images/portfolio/3.jpg" alt="" />
+          <img src="assets/3.jpg" alt="" />
           <figcaption>
             <h2>Portfolio Item</h2>
             <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p>
@@ -170,7 +170,7 @@
           </figcaption>
         </figure>
         <figure class="animateOnScroll" data-animation="fadeIn">
-          <img src="images/portfolio/4.jpg" alt="" />
+          <img src="assets/2.jpg" alt="" />
           <figcaption>
             <h2>Portfolio Item</h2>
             <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p>
@@ -201,18 +201,13 @@
           </p>
         </div>
         <div class="col-sm-12 col-md-6 section-content">
-          <img src="images/place.jpg" class="img-responsive" alt="">
+          <img src="assets/map.png" class="img-responsive" alt="">
         </div>
       </div>
 
     </div>
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="javascript/swiper.jquery.min.js"></script>
-  <script src="javascript/animate-on-scroll.js"></script>
-  <script src="javascript/script.js"></script>
   <script>
   var swiper = new Swiper('.swiper-container', {
     pagination: '.swiper-pagination',

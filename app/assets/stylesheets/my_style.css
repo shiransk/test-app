@@ -2,3 +2,13 @@
   height: 120px !important;
   width: 200px !important;
 }
+
+.bg-pattern {
+/*  background-image: url(../assets/pattern.png);*/
+  background-color:  #1797B2;
+}
+
+.btn-custom {
+ background-color:  #1797B2;
+
+}

@@ -1,7 +1,13 @@
 .logo {
-  height: 120px !important;
-  width: 200px !important;
+  height: 80px !important;
+  width: 350px !important;
 }
+
+.image-cover {
+  height: 200px;
+  width:  200px;
+}
+
 
 .bg-pattern {
 /*  background-image: url(../assets/pattern.png);*/
@@ -10,5 +16,9 @@
 
 .btn-custom {
  background-color:  #1797B2;
+}
 
+.about {
+  color: #1797B2;
+  font-size: 18px;
 }

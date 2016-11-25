@@ -1,3 +1,4 @@
+
 <body class="home-page">
   <header>
 
@@ -12,7 +13,7 @@
             <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">Garage Door Pros</div>
             <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">If you do it... do it Right .</div>
             <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-              <a href="card.html" class="btn btn-custom btn-lg">read more</a>
+              <a href="tel:1-800-217-1267" class="btn btn-custom btn-lg">call now</a>
             </div>
           </div>
         </div>
@@ -133,9 +134,11 @@
       <div class="row">
         <div class="col-lg-12 section-content text-center">
           <h3 class="animateOnScroll" data-animation="fadeInUp">Make an Appoitment</h3>
-          <p class="animateOnScroll" data-animation="fadeInUp" data-delay=".5s">All Of your garage dorr needs.</p>
+          <p class="animateOnScroll" data-animation="fadeInUp" data-delay=".5s">Fast service! arrival time up to 2 hours.</p>
           <p>&nbsp;</p>
+          <a href="/contact_us">
           <button type="button" class="btn btn-primary">Contact Us</button>
+          </a>
         </div>
       </div>
     </div>
@@ -209,26 +212,7 @@
     </div>
   </section>
 
-  <script>
-  var swiper = new Swiper('.swiper-container', {
-    pagination: '.swiper-pagination',
-    paginationClickable: true,
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
-    parallax: true,
-    speed: 600,`
-    autoplay: 2500,
-    onSlideChangeStart: (function (swiper) {
-      var active = swiper.slides[swiper.activeIndex];
-      var animated = $(active).find('*[data-animation]');
-      $.each(animated, function (key, value) {
-        $(value).addClass($(value).data('animation'));
-        $(value).addClass('animated');
-      });
-    })
-  });
 
-  </script>
 </body>
 
 </html>

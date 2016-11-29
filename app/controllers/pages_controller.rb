@@ -11,5 +11,9 @@ class PagesController < ApplicationController
 
    def contact_us
    end
-   
+
+   def before_and_after
+    
+   end
+
 end
